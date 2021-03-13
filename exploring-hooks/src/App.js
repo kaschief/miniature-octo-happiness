@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import StatelessButton from './StatelessButton'
+import StatelessDataLoader from './StatelessDataLoader'
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         >
           Learn React
         </a>
-        <StatelessButton/>
+        <StatelessButton />
+        <StatelessDataLoader/>
       </header>
     </div>
   );

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 
-
-export default function StatelessButton () {
+const StatelessButton = () => {
   const [buttonText, setButtonText] = useState("Click me please")
 
   return (
@@ -10,3 +9,6 @@ export default function StatelessButton () {
     </button>
   )
 }
+
+
+export default StatelessButton
