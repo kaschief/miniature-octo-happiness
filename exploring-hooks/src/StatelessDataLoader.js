@@ -9,7 +9,9 @@ const StatelessDataLoader = () => {
 
 
 	must ALWAYS insert empty array at the end of useEffect
+	(array of dependenices)
 	When the array is empty, the effect runs only once
+	else [data] -> the function will rerun depending on whether the value in the array changes
 	*/
 
 	useEffect(() => {
